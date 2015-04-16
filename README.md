@@ -5,6 +5,9 @@ A commandline vulnerability reporter using WP-CLI (http://wp-cli.org/) and WPVul
 
 Specially useful for server admin's managing the wordpress backend and what a quick list of vulnerable plugin's. Running wpscan is a tiresome process and does non needed bruteforce. Being a server admin the list of plugin's / themes could be directly extracted.
 
+![ExampleUsage](https://raw.githubusercontent.com/anantshri/wpvulndb_commandline/master/example_usage.png)
+
+
 # CommandLine Options
 ```
 usage: wpscancli.py [-h] --path PATH [--vulnonly]
