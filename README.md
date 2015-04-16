@@ -1,5 +1,5 @@
 # wpvulndb_cmd
-A commandline vulnerability reporter using WP-CLI and WPVulnDB
+A commandline vulnerability reporter using WP-CLI (http://wp-cli.org/) and WPVulnDB (http://wpvulndb.com/)
 
 # Usage
 
@@ -28,3 +28,9 @@ Wordpress management part is handed over to WP-CLI as it is doing its job too we
 1. add support for wordpress version specific issues reporting
 2. add support for theme vulnerability scanning
 3. export report in csv/xml/json format
+
+
+
+## External Services used and credit where credit is due
+1. WP-CLI is used to get information from wordpress instance
+2. WPVulnDB API used to get the vulnerability data.
