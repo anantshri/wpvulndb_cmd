@@ -1,9 +1,12 @@
 # wpvulndb_cmd
-A commandline vulnerability reporter using WP-CLI (http://wp-cli.org/) and WPVulnDB (http://wpvulndb.com/)
+A commandline vulnerability reporter using [WP-CLI](http://wp-cli.org/) and [WPVulnDB](http://wpvulndb.com/)
 
 # Usage
 
 Specially useful for server admin's managing the wordpress backend and what a quick list of vulnerable plugin's. Running wpscan is a tiresome process and does non needed bruteforce. Being a server admin the list of plugin's / themes could be directly extracted.
+
+![ExampleUsage](https://raw.githubusercontent.com/anantshri/wpvulndb_commandline/master/example_usage.png)
+
 
 # CommandLine Options
 ```
@@ -30,5 +33,5 @@ Wordpress management part is handed over to WP-CLI as it is doing its job too we
 
 
 ## External Services used and credit where credit is due
-1. WP-CLI is used to get information from wordpress instance
-2. WPVulnDB API used to get the vulnerability data.
+1. [WP-CLI is used to get information from wordpress instance](http://wp-cli.org/)
+2. [WPVulnDB API used to get the vulnerability data.](https://wpvulndb.com/)
