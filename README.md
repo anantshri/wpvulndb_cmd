@@ -15,19 +15,17 @@ command depends on wp-cli
 optional arguments:
   -h, --help   show this help message and exit
   --path PATH  Provide URL
-  --vulnonly   Only List vulnerable Plugins
+  --vulnonly   Only List vulnerable Items
 
 Credit (C) Anant Shrivastava http://anantshri.info
 ```
 
 ## Basic working
-Wordpress management part is handed over to WP-CLI as it is doing its job too well.  The list of plugin's and version's obtained from wp-cli are then used to extract results from wpvulndb.
+Wordpress management part is handed over to WP-CLI as it is doing its job too well.  The list of plugin/theme's and respective versions is obtained from wp-cli are then used to extract results from wpvulndb.
 
 
 ## To-do
-1. add support for wordpress version specific issues reporting
-2. add support for theme vulnerability scanning
-3. export report in csv/xml/json format
+1. export report in csv/xml/json format
 
 
 
