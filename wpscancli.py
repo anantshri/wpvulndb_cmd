@@ -36,13 +36,17 @@ def check_vuln_status(name,version,report,type):
 	tag["wordpresses"]="wordpress"
 	tag["plugins"]="plugin"
 	tag["themes"]="theme"
-	r=requests.get("https://wpvulndb.com/api/v1/"+type+"/" + name)
+	r=requests.get("https://wpvulndb.com/api/v2/"+type+"/" + name)
+	if type == "wordpresses":
+		xml_key=version
+	else:
+		xml_key=name
 	if r.status_code == 404:
 		if not report:
 			out+= bcolors.OKGREEN + "[+]  "+ tag[type].capitalize() +" : " + name.capitalize() + " : Doesn't have any Reported Security Issue " + bcolors.ENDC
 	else:
 		data = json.loads(r.text)
-		for x in data[tag[type]]["vulnerabilities"]:
+		for x in data[xml_key]["vulnerabilities"]:
 			#return str(x)
 			if x.has_key("fixed_in"):
 				if versiontuple(x["fixed_in"]) > versiontuple(version):
