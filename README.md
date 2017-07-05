@@ -35,3 +35,8 @@ Wordpress management part is handed over to WP-CLI as it is doing its job too we
 ## External Services used and credit where credit is due
 1. [WP-CLI is used to get information from wordpress instance](http://wp-cli.org/)
 2. [WPVulnDB API used to get the vulnerability data.](https://wpvulndb.com/)
+
+
+### Project Rename
+
+On 5th July 2017 We have renamed the project from wpvulndb_commandline to wpvulndb_cmd.
