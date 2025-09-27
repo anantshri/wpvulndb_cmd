@@ -1,3 +1,7 @@
+# Notice of archive
+
+As i am doing less and less of wordpress work this is something i am not working on regularly. archiving for record keeping.
+
 # wpvulndb_cmd
 A commandline vulnerability reporter using [WP-CLI](http://wp-cli.org/) and [WPVulnDB](http://wpvulndb.com/)
 
